@@ -1,10 +1,10 @@
 int heartSize = 600;//size of heart 
 void setup() {
-  size(500, 500);
+  size(500, 460);
 }
 
 void draw() {
-  background(0);  // Add a background to clear the previous frames
+  background(0); //clears thingy
   int startX = (width - heartSize) / 2; 
   myFractal(startX, 250, heartSize);
   
