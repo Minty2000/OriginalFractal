@@ -1,4 +1,4 @@
-int heartSize = 600;//size of heart 
+int heartSize = 500;//size of heart 
 void setup() {
   size(500, 460);
 }
@@ -27,7 +27,7 @@ void myFractal(int x, int y, int size) {
     myFractal(x + size / 2, y, size / 2);
     
   }
-  fill(255);
+  fill(245);
   textSize(25);
   textAlign(CENTER,CENTER);
     text("Be my Valentine?", x+size/2,  y+size/3-250);
