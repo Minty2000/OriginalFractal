@@ -1,6 +1,6 @@
 int heartSize = 1000;//size of heart 
 void setup() {
-  size(1000, 1000);
+  size(800, 800);
 }
 
 void draw() {
