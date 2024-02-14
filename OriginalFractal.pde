@@ -1,12 +1,12 @@
-int heartSize = 1000;//size of heart 
+int heartSize = 600;//size of heart 
 void setup() {
-  size(800, 800);
+  size(500, 500);
 }
 
 void draw() {
   background(0);  // Add a background to clear the previous frames
   int startX = (width - heartSize) / 2; 
-  myFractal(startX, 400, heartSize);
+  myFractal(startX, 250, heartSize);
   
 }
 
@@ -30,5 +30,5 @@ void myFractal(int x, int y, int size) {
   fill(255);
   textSize(25);
   textAlign(CENTER,CENTER);
-    text("Be my Valentine?", x+size/2,  y+size/3-400);
+    text("Be my Valentine?", x+size/2,  y+size/3-250);
 }
